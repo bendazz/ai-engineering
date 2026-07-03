@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Advanced AI Applications</title>
+
+  <!-- KaTeX (math typesetting) from CDN -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"
+        crossorigin="anonymous" />
+  <script defer
+          src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"
+          crossorigin="anonymous"></script>
+  <script defer
+          src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+          crossorigin="anonymous"></script>
+
+  <!-- Course styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Mobile menu button + backdrop -->
+  <button id="menu-toggle" aria-label="Open table of contents">☰</button>
+  <div id="backdrop"></div>
+
+  <!-- Sidebar / table of contents -->
+  <nav id="sidebar">
+    <div class="brand">
+      <div class="brand-title">Advanced AI Applications</div>
+      <div class="brand-subtitle">AI Engineering: building reliably on language models</div>
+    </div>
+    <div id="toc"></div>
+  </nav>
+
+  <!-- Main reading column -->
+  <div id="content-wrap">
+    <main id="content"></main>
+    <nav id="pager"></nav>
+    <footer id="page-footer">
+      Advanced AI Applications · An interactive AI-engineering course.
+    </footer>
+  </div>
+
+  <!-- Optional helpers, then sections, then the shell.
+       Load order matters: toolkit + manifest + each section register
+       onto window before app.js reads them. -->
+  <script src="toolkit.js"></script>
+  <script src="sections/manifest.js"></script>
+
+  <!-- Sections (add one <script> line per section) -->
+  <script src="sections/what-is-ai-engineering.js"></script>
+  <script src="sections/setup-editor.js"></script>
+  <script src="sections/setup-workbench.js"></script>
+  <script src="sections/setup-git.js"></script>
+  <script src="sections/setup-github.js"></script>
+  <script src="sections/setup-first-call.js"></script>
+  <script src="sections/anatomy-of-a-call.js"></script>
+  <script src="sections/tokens-and-context.js"></script>
+  <script src="sections/sampling-and-temperature.js"></script>
+  <script src="sections/structured-outputs.js"></script>
+  <script src="sections/first-eval.js"></script>
+  <script src="sections/beyond-accuracy.js"></script>
+  <script src="sections/llm-as-judge.js"></script>
+  <script src="sections/is-the-difference-real.js"></script>
+  <script src="sections/eval-studio.js"></script>
+  <script src="sections/prompt-anatomy.js"></script>
+  <script src="sections/few-shot.js"></script>
+  <script src="sections/let-it-think.js"></script>
+  <script src="sections/prompt-loop.js"></script>
+  <script src="sections/prompt-studio.js"></script>
+  <script src="sections/giving-the-model-tools.js"></script>
+  <script src="sections/tool-use-loop.js"></script>
+  <script src="sections/retrieval-as-a-tool.js"></script>
+  <script src="sections/evaluating-tools.js"></script>
+  <script src="sections/tool-studio.js"></script>
+  <script src="sections/what-makes-an-agent.js"></script>
+  <script src="sections/build-an-agent.js"></script>
+  <script src="sections/evaluating-agents.js"></script>
+  <script src="sections/when-agents-go-wrong.js"></script>
+  <script src="sections/multiple-agents.js"></script>
+  <script src="sections/agent-studio.js"></script>
+  <script src="sections/tracing-and-flywheel.js"></script>
+  <script src="sections/cost-and-latency.js"></script>
+  <script src="sections/caching.js"></script>
+  <script src="sections/reliability.js"></script>
+  <script src="sections/guardrails.js"></script>
+  <script src="sections/production-studio.js"></script>
+  <script src="sections/script-to-service.js"></script>
+  <script src="sections/prompt-versioning.js"></script>
+  <script src="sections/ci-regression-evals.js"></script>
+  <script src="sections/monitoring-and-drift.js"></script>
+  <script src="sections/safe-rollouts.js"></script>
+  <script src="sections/capstone-brief.js"></script>
+  <script src="sections/shipping-your-portfolio.js"></script>
+
+  <!-- The reading shell (must come last) -->
+  <script src="app.js"></script>
+</body>
+</html>

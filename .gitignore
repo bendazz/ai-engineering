@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+
+# Python (helper scripts / venv, if ever added)
+.venv/
+__pycache__/
+*.pyc
+
+# Local tool config
+.claude/
+
+# Instructor playbook — kept OUT of the public repo
+CLAUDE.md
