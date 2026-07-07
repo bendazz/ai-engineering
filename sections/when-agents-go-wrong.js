@@ -28,7 +28,7 @@ window.SectionContent["when-agents-go-wrong"] = {
   title: "When agents go wrong",
 
   html: `
-    <div class="eyebrow">Agents · Section 29</div>
+    <div class="eyebrow">Agents · Section 31</div>
     <h1>When agents go wrong</h1>
 
     <p>A single call fails in one place: the answer is bad, you see it, you fix the prompt. An

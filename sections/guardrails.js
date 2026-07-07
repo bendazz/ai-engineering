@@ -32,7 +32,7 @@ window.SectionContent["guardrails"] = {
   title: "Guardrails",
 
   html: `
-    <div class="eyebrow">Production · Section 36</div>
+    <div class="eyebrow">Production · Section 38</div>
     <h1>Guardrails</h1>
 
     <p>In a notebook you feed the model reasonable inputs. In production, strangers feed it whatever

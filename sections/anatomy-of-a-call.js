@@ -33,7 +33,7 @@ window.SectionContent["anatomy-of-a-call"] = {
   title: "Anatomy of a call",
 
   html: `
-    <div class="eyebrow">Working with the Model · Section 7</div>
+    <div class="eyebrow">Working with the Model · Section 9</div>
     <h1>Anatomy of a call</h1>
 
     <p>You've made the call this whole course is built on. Now let's take it

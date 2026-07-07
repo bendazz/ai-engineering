@@ -27,7 +27,7 @@ window.SectionContent["shipping-your-portfolio"] = {
   title: "Shipping your portfolio",
 
   html: `
-    <div class="eyebrow">Capstone · Section 44</div>
+    <div class="eyebrow">Capstone · Section 46</div>
     <h1>Shipping your portfolio</h1>
 
     <p>You built something real. Now for the part almost nobody teaches and everybody needs: making

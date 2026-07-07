@@ -35,7 +35,7 @@ window.SectionContent["sampling-and-temperature"] = {
   title: "Sampling and temperature",
 
   html: `
-    <div class="eyebrow">Working with the Model · Section 9</div>
+    <div class="eyebrow">Working with the Model · Section 11</div>
     <h1>Sampling and temperature</h1>
 
     <p>Back in the first section you watched the model give different answers to

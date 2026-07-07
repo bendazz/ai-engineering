@@ -19,7 +19,7 @@ window.SectionContent["agent-studio"] = {
   title: "Studio: build and evaluate an agent",
 
   html: `
-    <div class="eyebrow">Agents · Section 31 · Studio</div>
+    <div class="eyebrow">Agents · Section 33 · Studio</div>
     <h1>Studio: build and evaluate an agent</h1>
 
     <p>The whole trilogy comes together here. Your team builds a real agent — a goal, a few tools

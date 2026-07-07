@@ -1847,3 +1847,17 @@ body.teach .callout.teach-only::before {
 .pf-note { margin-top: 12px; padding: 10px 14px; border-radius: 8px; font-size: .9rem; border: 1px solid var(--line); border-left-width: 4px; }
 .pf-note.weak { border-left-color: var(--amber); background: #fff8ef; }
 .pf-note.strong { border-left-color: var(--teal); background: #e6f5f2; }
+
+/* ---- History time-machine (getting-back-to-working; .tm-*) ---- */
+.tm-timeline { display: flex; flex-wrap: wrap; gap: 8px; }
+.tm-chip { font: inherit; cursor: pointer; text-align: left; transition: border-color .12s ease, background .12s ease; }
+.tm-chip:hover { border-color: var(--accent); }
+.tm-detached { margin-top: 12px; }
+.tm-note { font-size: .82rem; font-weight: 600; padding: 8px 12px; border-radius: 8px; border: 1px solid var(--line); border-left-width: 4px; }
+.tm-note.attached { border-left-color: var(--teal); background: #e9f7f2; color: var(--ink); }
+.tm-note.detached { border-left-color: var(--amber); background: #fbf1dd; color: var(--ink); }
+.tm-note.danger   { border-left-color: var(--rose);  background: #fdeef1; color: var(--ink); }
+/* undoing-a-commit: a muted second pointer chip (origin/main) and a ghosted,
+   off-the-branch commit after a reset */
+.gc-origin { background: var(--ink-soft); }
+.git-commit.ghost { opacity: .5; border-style: dashed; }

@@ -32,7 +32,7 @@ window.SectionContent["what-makes-an-agent"] = {
   title: "What makes it an agent",
 
   html: `
-    <div class="eyebrow">Agents · Section 26</div>
+    <div class="eyebrow">Agents · Section 28</div>
     <h1>What makes it an agent</h1>
 
     <p>You already built the machine. In the last block, your <code>while</code> loop drove

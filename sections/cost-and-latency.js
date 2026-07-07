@@ -31,7 +31,7 @@ window.SectionContent["cost-and-latency"] = {
   title: "Cost and latency as engineering",
 
   html: `
-    <div class="eyebrow">Production · Section 33</div>
+    <div class="eyebrow">Production · Section 35</div>
     <h1>Cost and latency as engineering</h1>
 
     <p>In a notebook, cost and speed are invisible — one call is a fraction of a cent and finishes

@@ -17,7 +17,7 @@ window.SectionContent["prompt-studio"] = {
   title: "Studio: iterate a prompt to a target",
 
   html: `
-    <div class="eyebrow">Prompt Engineering · Section 20 · Studio</div>
+    <div class="eyebrow">Prompt Engineering · Section 22 · Studio</div>
     <h1>Studio: iterate a prompt to a target</h1>
 
     <p>You've got the loop; now run it under pressure. Each brief hands your team a

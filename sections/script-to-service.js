@@ -27,7 +27,7 @@ window.SectionContent["script-to-service"] = {
   title: "From script to service",
 
   html: `
-    <div class="eyebrow">Deployment · Section 38 · Lab</div>
+    <div class="eyebrow">Deployment · Section 40 · Lab</div>
     <h1>From script to service</h1>
 
     <p>Everything you've built so far, you ran yourself — a script, a notebook, a command. To

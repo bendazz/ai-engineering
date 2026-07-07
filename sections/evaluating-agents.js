@@ -33,7 +33,7 @@ window.SectionContent["evaluating-agents"] = {
   title: "Evaluating agents",
 
   html: `
-    <div class="eyebrow">Agents · Section 28 · Lab</div>
+    <div class="eyebrow">Agents · Section 30 · Lab</div>
     <h1>Evaluating agents</h1>
 
     <p>Here is where autonomy sends the bill. Everything that made an agent attractive — it

@@ -35,8 +35,18 @@ window.SECTIONS = [
     group: "Setup & First Contact",
   },
   {
+    id: "getting-back-to-working",
+    title: "Getting back to a working version",
+    group: "Setup & First Contact",
+  },
+  {
     id: "setup-github",
     title: "Back up your work on GitHub",
+    group: "Setup & First Contact",
+  },
+  {
+    id: "undoing-a-commit",
+    title: "Undoing a commit",
     group: "Setup & First Contact",
   },
   {

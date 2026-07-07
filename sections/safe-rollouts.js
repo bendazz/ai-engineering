@@ -26,7 +26,7 @@ window.SectionContent["safe-rollouts"] = {
   title: "Safe rollouts",
 
   html: `
-    <div class="eyebrow">Deployment · Section 42</div>
+    <div class="eyebrow">Deployment · Section 44</div>
     <h1>Safe rollouts</h1>
 
     <p>Your change passed the CI gate — offline, it's an improvement. But offline is a snapshot, and

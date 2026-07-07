@@ -39,7 +39,7 @@ window.SectionContent["structured-outputs"] = {
   title: "Structured outputs",
 
   html: `
-    <div class="eyebrow">Working with the Model · Section 10</div>
+    <div class="eyebrow">Working with the Model · Section 12</div>
     <h1>Structured outputs</h1>
 
     <p>Everything the model has handed back so far is <strong>prose</strong> —

@@ -19,7 +19,7 @@ window.SectionContent["setup-github"] = {
   title: "Back up your work on GitHub",
 
   html: `
-    <div class="eyebrow">Setup &amp; First Contact · Section 5 · Lab</div>
+    <div class="eyebrow">Setup &amp; First Contact · Section 6 · Lab</div>
     <h1>Back up your work on GitHub</h1>
 
     <p>Your commits from last session live on your machine and nowhere else. Today

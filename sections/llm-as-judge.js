@@ -34,7 +34,7 @@ window.SectionContent["llm-as-judge"] = {
   title: "LLM-as-judge",
 
   html: `
-    <div class="eyebrow">Evaluation · Section 13</div>
+    <div class="eyebrow">Evaluation · Section 15</div>
     <h1>LLM-as-judge</h1>
 
     <p>Your eval so far rests on <code>==</code>: the model returns a label, you

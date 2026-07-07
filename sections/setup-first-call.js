@@ -36,7 +36,7 @@ window.SectionContent["setup-first-call"] = {
   title: "Your API key and first contact",
 
   html: `
-    <div class="eyebrow">Setup &amp; First Contact · Section 6 · Lab</div>
+    <div class="eyebrow">Setup &amp; First Contact · Section 8 · Lab</div>
     <h1>Your API key and first contact</h1>
 
     <p>Everything so far has been groundwork: an editor, an isolated
