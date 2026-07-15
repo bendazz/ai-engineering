@@ -1861,3 +1861,65 @@ body.teach .callout.teach-only::before {
    off-the-branch commit after a reset */
 .gc-origin { background: var(--ink-soft); }
 .git-commit.ghost { opacity: .5; border-style: dashed; }
+
+/* ============================================================
+   git-playground (.gp-*) — interactive git pointers sandbox
+   ============================================================ */
+.gp-modes { display: flex; gap: 8px; margin-bottom: 12px; }
+.gp-modebtn {
+  font: inherit; font-size: .82rem; font-weight: 600; cursor: pointer;
+  padding: 6px 14px; border-radius: 8px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink-soft);
+}
+.gp-modebtn.active { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-ink); }
+
+.gp-graph {
+  border: 1px solid var(--line); border-radius: 10px; background: var(--bg);
+  overflow-x: auto; padding: 6px; min-height: 180px;
+}
+.gp-svg { display: block; }
+.gp-edge { stroke: var(--ink-faint); stroke-width: 2; }
+.gp-node { fill: var(--surface); stroke: var(--ink-soft); stroke-width: 2; }
+.gp-node.current { stroke: var(--accent); stroke-width: 3; fill: var(--accent-soft); }
+.gp-id { font-family: var(--font-mono); font-size: 11px; fill: var(--ink-faint); text-anchor: middle; }
+.gp-pill { stroke-width: 0; }
+.gp-pill.branch { fill: var(--teal); }
+.gp-pill.head { fill: var(--accent); }
+.gp-pill.detached { fill: var(--amber); }
+.gp-pillt { font-family: var(--font-mono); font-size: 11px; font-weight: 700; fill: #fff; text-anchor: middle; }
+
+.gp-status {
+  margin-top: 8px; font-family: var(--font-mono); font-size: .82rem;
+  color: var(--ink-soft); padding: 4px 2px;
+}
+.gp-cmdrow { display: flex; gap: 8px; margin-top: 8px; }
+.gp-input {
+  flex: 1; font-family: var(--font-mono); font-size: .86rem;
+  padding: 8px 12px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--surface); color: var(--ink);
+}
+.gp-input:focus { outline: none; border-color: var(--accent); }
+.gp-run { white-space: nowrap; }
+.gp-msg { min-height: 1.4em; margin-top: 8px; font-size: .84rem; color: var(--ink-soft); }
+.gp-msg.ok { color: var(--teal); }
+.gp-msg.err { color: var(--rose); }
+
+.gp-hint { margin-top: 14px; font-size: .82rem; color: var(--ink-faint); }
+.gp-palette { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.gp-chip {
+  font-family: var(--font-mono); font-size: .78rem; cursor: pointer;
+  padding: 4px 9px; border-radius: 6px; border: 1px solid var(--line);
+  background: var(--surface); color: var(--accent-ink);
+}
+.gp-chip:hover { border-color: var(--accent); background: var(--accent-soft); }
+
+.gp-challist { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.gp-chalitem {
+  text-align: left; font: inherit; cursor: pointer; display: block;
+  padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line);
+  border-left-width: 4px; background: var(--surface);
+}
+.gp-chalitem.active { border-left-color: var(--accent); background: var(--accent-soft); }
+.gp-chalitem.solved { border-left-color: var(--teal); }
+.gp-chaltitle { display: block; font-weight: 700; font-size: .9rem; color: var(--ink); }
+.gp-chalbrief { display: block; font-size: .82rem; color: var(--ink-soft); margin-top: 3px; }

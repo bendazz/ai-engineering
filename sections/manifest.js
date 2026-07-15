@@ -249,4 +249,9 @@ window.SECTIONS = [
     title: "Shipping your portfolio",
     group: "Capstone",
   },
+  {
+    id: "git-playground",
+    title: "Git pointers playground",
+    group: "Interactive Labs",
+  },
 ];
