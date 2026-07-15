@@ -27,7 +27,7 @@ window.SectionContent["prompt-loop"] = {
   title: "The prompt-improvement loop",
 
   html: `
-    <div class="eyebrow">Prompt Engineering · Section 21 · Lab</div>
+    <div class="eyebrow">Prompt Engineering · Section 22 · Lab</div>
     <h1>The prompt-improvement loop</h1>
 
     <p>You have the ingredients, few-shot, and reasoning. This section is the workflow

@@ -31,7 +31,7 @@ window.SectionContent["beyond-accuracy"] = {
   title: "Beyond accuracy: precision & recall",
 
   html: `
-    <div class="eyebrow">Evaluation · Section 14</div>
+    <div class="eyebrow">Evaluation · Section 15</div>
     <h1>Beyond accuracy: precision &amp; recall</h1>
 
     <p>Accuracy was a fine first metric — one honest number for the whole system.

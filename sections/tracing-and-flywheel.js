@@ -35,7 +35,7 @@ window.SectionContent["tracing-and-flywheel"] = {
   title: "Tracing and the data flywheel",
 
   html: `
-    <div class="eyebrow">Production · Section 34 · Lab</div>
+    <div class="eyebrow">Production · Section 35 · Lab</div>
     <h1>Tracing and the data flywheel</h1>
 
     <p>Everything so far ran in a notebook, against inputs you chose, while you watched. Production

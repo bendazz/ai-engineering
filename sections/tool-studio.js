@@ -17,7 +17,7 @@ window.SectionContent["tool-studio"] = {
   title: "Studio: a tool-using assistant",
 
   html: `
-    <div class="eyebrow">Tool Use · Section 27 · Studio</div>
+    <div class="eyebrow">Tool Use · Section 28 · Studio</div>
     <h1>Studio: a tool-using assistant</h1>
 
     <p>Time to put the whole block together. Your team builds a small assistant that can

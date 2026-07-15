@@ -30,7 +30,7 @@ window.SectionContent["first-eval"] = {
   title: "Your first eval",
 
   html: `
-    <div class="eyebrow">Evaluation · Section 13 · Lab</div>
+    <div class="eyebrow">Evaluation · Section 14 · Lab</div>
     <h1>Your first eval</h1>
 
     <p>This is the section the whole course has been walking toward. You can call

@@ -26,7 +26,7 @@ window.SectionContent["tool-use-loop"] = {
   title: "The tool-use loop",
 
   html: `
-    <div class="eyebrow">Tool Use · Section 24 · Lab</div>
+    <div class="eyebrow">Tool Use · Section 25 · Lab</div>
     <h1>The tool-use loop</h1>
 
     <p>You saw the round trip; now build it by hand. You understand a mechanism when you

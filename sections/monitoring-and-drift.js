@@ -29,7 +29,7 @@ window.SectionContent["monitoring-and-drift"] = {
   title: "Monitoring and drift",
 
   html: `
-    <div class="eyebrow">Deployment · Section 43</div>
+    <div class="eyebrow">Deployment · Section 44</div>
     <h1>Monitoring and drift</h1>
 
     <p>Your system passed its evals, cleared the CI gate, and shipped. You are not done — you're

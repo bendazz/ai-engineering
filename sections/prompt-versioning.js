@@ -23,7 +23,7 @@ window.SectionContent["prompt-versioning"] = {
   title: "Prompt versioning",
 
   html: `
-    <div class="eyebrow">Deployment · Section 41</div>
+    <div class="eyebrow">Deployment · Section 42</div>
     <h1>Prompt versioning</h1>
 
     <p>Your prompt is the single most-changed part of an LLM system — you tweak it constantly, and

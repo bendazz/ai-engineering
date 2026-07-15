@@ -31,7 +31,7 @@ window.SectionContent["build-an-agent"] = {
   title: "Build an agent",
 
   html: `
-    <div class="eyebrow">Agents · Section 29 · Lab</div>
+    <div class="eyebrow">Agents · Section 30 · Lab</div>
     <h1>Build an agent</h1>
 
     <p>You have every part already. The tool-use loop from the last block <em>is</em> the agent

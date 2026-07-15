@@ -29,7 +29,7 @@ window.SectionContent["evaluating-tools"] = {
   title: "Evaluating tools and groundedness",
 
   html: `
-    <div class="eyebrow">Tool Use · Section 26</div>
+    <div class="eyebrow">Tool Use · Section 27</div>
     <h1>Evaluating tools and groundedness</h1>
 
     <p>New capability, same question — the one this whole course keeps asking:

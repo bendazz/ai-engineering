@@ -50,6 +50,11 @@ window.SECTIONS = [
     group: "Setup & First Contact",
   },
   {
+    id: "rolling-back-further",
+    title: "Rolling back further",
+    group: "Setup & First Contact",
+  },
+  {
     id: "setup-first-call",
     title: "Your API key and first contact",
     group: "Setup & First Contact",

@@ -39,7 +39,7 @@ window.SectionContent["caching"] = {
   title: "Caching",
 
   html: `
-    <div class="eyebrow">Production · Section 36 · Lab</div>
+    <div class="eyebrow">Production · Section 37 · Lab</div>
     <h1>Caching</h1>
 
     <p>Look at what you send the model on a typical request: a long system prompt, your tool

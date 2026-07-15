@@ -39,7 +39,7 @@ window.SectionContent["tokens-and-context"] = {
   title: "Tokens and the context window",
 
   html: `
-    <div class="eyebrow">Working with the Model · Section 10</div>
+    <div class="eyebrow">Working with the Model · Section 11</div>
     <h1>Tokens and the context window</h1>
 
     <p>The meter on every response reads in <strong>tokens</strong>, and so does

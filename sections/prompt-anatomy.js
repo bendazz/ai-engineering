@@ -26,7 +26,7 @@ window.SectionContent["prompt-anatomy"] = {
   title: "Anatomy of a good prompt",
 
   html: `
-    <div class="eyebrow">Prompt Engineering · Section 18</div>
+    <div class="eyebrow">Prompt Engineering · Section 19</div>
     <h1>Anatomy of a good prompt</h1>
 
     <p>Everything changes now that you can measure. &ldquo;Prompt engineering&rdquo;
