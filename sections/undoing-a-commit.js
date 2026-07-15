@@ -228,11 +228,19 @@ window.SectionContent["undoing-a-commit"] = {
         <code>hello.py</code>, save, then:
         ${Toolkit.code("Terminal", "git add -A\ngit commit -m \"WIP experiment\"")}
       </li>
-      <li>Change your mind. Un-commit it but keep the change, so you could rework it:
-        ${Toolkit.code("Terminal", "git reset --soft HEAD~1")}
-        Run <code>git status</code>: the commit is gone from your history, and its change
-        is sitting back in staging, uncommitted. You rewrote history — safely, because
-        this commit never left your machine.
+      <li>Change your mind. Un-commit it but keep the change, so you could rework it —
+        then look at <em>both</em> your history and your status:
+        ${Toolkit.code("Terminal", "git reset --soft HEAD~1\ngit log --oneline\ngit status")}
+        Notice the two things that happen at once, because this is exactly where people
+        get disoriented. In <code>git log --oneline</code> the <code>WIP experiment</code>
+        line is <strong>gone</strong> — the commit is off your branch. But
+        <code>git status</code> shows your change is <strong>still there</strong>, sitting
+        in staging: <code>--soft</code> rolled back only the branch pointer, not your
+        files. So the <em>commit</em> left the branch while the <em>edit</em> stayed. You
+        rewrote history — safely, because this commit never left your machine. (And even
+        the commit isn't truly destroyed: git keeps it in the <code>reflog</code> for a
+        while, so it's recoverable — it's simply no longer on your branch. "Off the branch"
+        is not the same as "gone.")
       </li>
       <li>It was only junk, so discard the leftover change too and get fully clean
         (<code>restore</code> from last lab):
