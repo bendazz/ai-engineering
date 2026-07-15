@@ -218,14 +218,25 @@ window.SectionContent["rolling-back-further"] = {
 
     <h3>Part 3 — clean up, and prove main was untouched</h3>
     <ol class="steps">
-      <li>Leave the sandbox and delete both practice branches:
-        ${Toolkit.code("Terminal", "git switch main\ngit branch -D rollback-drill drill-scrap")}
+      <li>Leave the sandbox and return to your trunk:
+        ${Toolkit.code("Terminal", "git switch main")}
       </li>
-      <li>Confirm your real work never moved:
-        ${Toolkit.code("Terminal", "git log --oneline")}
+      <li>Now delete the two practice branches — but reach for the <em>safe</em> lowercase
+        <code>-d</code> first, and watch what git does:
+        ${Toolkit.code("Terminal", "git branch -d rollback-drill drill-scrap")}
+        git deletes <code>rollback-drill</code> without complaint — it sat at
+        <strong>&lt;good&gt;</strong>, already part of <code>main</code>, so nothing is lost.
+        But it <strong>refuses</strong> <code>drill-scrap</code>, because those three commits
+        live nowhere else, and it points you at <code>-D</code>. That refusal is git
+        protecting you from throwing away work by accident: lowercase <code>-d</code> means
+        "delete only if it's safe," uppercase <code>-D</code> means "I know — force it."
+      </li>
+      <li>You <em>do</em> want the scrap gone here, so force it, then confirm your real work
+        never moved:
+        ${Toolkit.code("Terminal", "git branch -D drill-scrap\ngit log --oneline")}
         Your <code>main</code> is exactly as you left it at the start — the entire drill
-        happened on a branch and evaporated when you deleted it. <em>That</em> is the habit:
-        when unsure, branch, experiment, and throw the branch away.
+        happened on branches and evaporated when you deleted them. <em>That</em> is the
+        habit: when unsure, branch, experiment, and throw the branches away.
       </li>
     </ol>
 
