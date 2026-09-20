@@ -90,7 +90,20 @@
            (1 − p<sub>e</sub>).</li>
        </ol>
        <p>Read the answer as: <em>of the agreement that was still available above
-       chance, what fraction did the judge actually earn?</em></p>`,
+       chance, what fraction did the judge actually earn?</em></p>
+       <p>And the conventional vocabulary for the result (Landis &amp; Koch, 1977):</p>
+       <div class="kappa-bands">
+         <div class="kb-item"><span class="kb-chip poor">&lt; 0.20</span> slight</div>
+         <div class="kb-item"><span class="kb-chip fair">0.21–0.40</span> fair</div>
+         <div class="kb-item"><span class="kb-chip mod">0.41–0.60</span> moderate</div>
+         <div class="kb-item"><span class="kb-chip sub">0.61–0.80</span> substantial</div>
+         <div class="kb-item"><span class="kb-chip perf">0.81–1.0</span> almost perfect</div>
+       </div>
+       <p>Those bands are a <strong>convention, not a law</strong> — they were asserted
+       in a paper, not derived from anything. They are useful shared vocabulary and a
+       bad passing grade: what counts as good enough depends on what a wrong grade
+       costs you downstream, and on a benchmark that is not 1.0. Problem 9 is about
+       that benchmark.</p>`,
       { type: "note", label: "The recipe" }
     )}
 
