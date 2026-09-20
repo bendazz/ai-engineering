@@ -31,7 +31,7 @@ window.SectionContent["giving-the-model-tools"] = {
   title: "Giving the model tools",
 
   html: `
-    <div class="eyebrow">Tool Use · Section 24</div>
+    <div class="eyebrow">Tool Use · Section 25</div>
     <h1>Giving the model tools</h1>
 
     <p>Up to now the model has been a closed box: text in, text out, drawing only on

@@ -28,7 +28,7 @@ window.SectionContent["eval-studio"] = {
   title: "Studio: build an eval suite",
 
   html: `
-    <div class="eyebrow">Evaluation · Section 18 · Studio</div>
+    <div class="eyebrow">Evaluation · Section 19 · Studio</div>
     <h1>Studio: build an eval suite</h1>
 
     <p>You now own every piece: a harness that scores a dataset, the metrics that fit a

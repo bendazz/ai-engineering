@@ -31,7 +31,7 @@ window.SectionContent["ci-regression-evals"] = {
   title: "CI regression evals",
 
   html: `
-    <div class="eyebrow">Deployment · Section 43 · Lab</div>
+    <div class="eyebrow">Deployment · Section 44 · Lab</div>
     <h1>CI regression evals</h1>
 
     <p>This is the section the whole course has been walking toward. Back in the setup block you

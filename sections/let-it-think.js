@@ -32,7 +32,7 @@ window.SectionContent["let-it-think"] = {
   title: "Let the model think",
 
   html: `
-    <div class="eyebrow">Prompt Engineering · Section 21</div>
+    <div class="eyebrow">Prompt Engineering · Section 22</div>
     <h1>Let the model think</h1>
 
     <p>Some tasks aren't pattern-matching — they need actual reasoning: multi-step logic,

@@ -95,6 +95,11 @@ window.SECTIONS = [
     group: "Evaluation",
   },
   {
+    id: "kappa-practice",
+    title: "Practice: Cohen's kappa",
+    group: "Evaluation",
+  },
+  {
     id: "is-the-difference-real",
     title: "Is the difference real?",
     group: "Evaluation",

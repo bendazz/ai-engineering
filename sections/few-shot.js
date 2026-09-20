@@ -28,7 +28,7 @@ window.SectionContent["few-shot"] = {
   title: "Few-shot prompting",
 
   html: `
-    <div class="eyebrow">Prompt Engineering · Section 20</div>
+    <div class="eyebrow">Prompt Engineering · Section 21</div>
     <h1>Few-shot prompting</h1>
 
     <p>The most reliable prompt technique after &ldquo;be specific&rdquo; is

@@ -20,7 +20,7 @@ window.SectionContent["capstone-brief"] = {
   title: "Capstone: build a real AI system",
 
   html: `
-    <div class="eyebrow">Capstone · Section 46 · Studio</div>
+    <div class="eyebrow">Capstone · Section 47 · Studio</div>
     <h1>Capstone: build a real AI system</h1>
 
     <p>This is the whole course, at once. You're going to build a complete AI-engineering system on

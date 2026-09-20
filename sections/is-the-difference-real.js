@@ -34,7 +34,7 @@ window.SectionContent["is-the-difference-real"] = {
   title: "Is the difference real?",
 
   html: `
-    <div class="eyebrow">Evaluation · Section 17</div>
+    <div class="eyebrow">Evaluation · Section 18</div>
     <h1>Is the difference real?</h1>
 
     <p>You run your eval on the baseline and get 70%. You rewrite the prompt, run it

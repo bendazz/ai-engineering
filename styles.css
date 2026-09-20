@@ -1306,6 +1306,14 @@ body.teach .callout.teach-only::before {
 .ka-cell.agree { background: #b7e3d9; }
 .ka-cell.dis   { background: #f3b8c4; }
 
+/* 3x3 variant, used by the kappa practice section */
+.ka-grid.k3 { grid-template-columns: 120px 1fr 1fr 1fr; }
+.ka-grid.k3 .ka-cell { font-size: 1.15rem; min-height: 46px; padding: 10px; }
+@media (max-width: 560px) {
+  .ka-grid.k3 { grid-template-columns: 76px 1fr 1fr 1fr; gap: 4px; }
+  .ka-grid.k3 .ka-cell { font-size: .95rem; padding: 6px; }
+}
+
 .kappa-card { border-width: 2px; }
 .kappa-card.poor { border-color: #d24a63; }
 .kappa-card.fair { border-color: #cf8a1e; }

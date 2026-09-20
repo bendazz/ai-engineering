@@ -31,7 +31,7 @@ window.SectionContent["multiple-agents"] = {
   title: "Multiple agents",
 
   html: `
-    <div class="eyebrow">Agents · Section 33</div>
+    <div class="eyebrow">Agents · Section 34</div>
     <h1>Multiple agents</h1>
 
     <p>This is the part you've read the breathless posts about: <strong>orchestration,

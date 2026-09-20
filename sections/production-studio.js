@@ -18,7 +18,7 @@ window.SectionContent["production-studio"] = {
   title: "Studio: harden a system for production",
 
   html: `
-    <div class="eyebrow">Production · Section 40 · Studio</div>
+    <div class="eyebrow">Production · Section 41 · Studio</div>
     <h1>Studio: harden a system for production</h1>
 
     <p>You have a system that works. This studio makes it one you'd actually put in front of real

@@ -29,7 +29,7 @@ window.SectionContent["retrieval-as-a-tool"] = {
   title: "Retrieval as a tool",
 
   html: `
-    <div class="eyebrow">Tool Use · Section 26 · Lab</div>
+    <div class="eyebrow">Tool Use · Section 27 · Lab</div>
     <h1>Retrieval as a tool</h1>
 
     <p>The single most useful tool you can give a model is a way to look things up in

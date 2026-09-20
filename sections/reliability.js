@@ -39,7 +39,7 @@ window.SectionContent["reliability"] = {
   title: "Reliability: retries, timeouts, fallbacks",
 
   html: `
-    <div class="eyebrow">Production · Section 38 · Lab</div>
+    <div class="eyebrow">Production · Section 39 · Lab</div>
     <h1>Reliability: retries, timeouts, fallbacks</h1>
 
     <p>Every API call is a request over the network to a busy, shared service. Most of the time it
